@@ -1,0 +1,101 @@
+h1 {
+  font-size: 36pt;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 36pt;
+}
+
+body {
+  margin: 0.25in;
+  padding: 0;
+  width: 23.5in;
+  height: 39.5in;
+  font-family: 'Lato';
+  font-size: 24pt;
+}
+
+mtext {
+  font-family: 'Lato';
+}
+
+div.row {
+  /* Margin, border, and padding add 1.5in to divs in the row class */
+  float: left;
+  margin: 0.25in;
+  padding: 0.4375in;
+  border-style: solid;
+  border-width: 0.0625in;
+  border-radius: 0.5in;
+  min-width: 22in;
+}
+
+div#title {
+  min-height: 3in;
+  max-height: 3in;
+  text-align: center;
+}
+
+div#titletext {
+  width: 75%;
+  float: left;
+}
+
+div#titlefig {
+  float: left;
+}
+
+div#top {
+  min-height: 16.5in;
+  max-height: 16.5in;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+div#bottom {
+  min-height: 15.5in;
+  max-height: 15.5in;
+  -moz-column-count: 3;
+  column-count: 3;
+}
+
+figure {
+  text-align: center;
+  break-inside: avoid-column; /* What should work */
+  page-break-inside: avoid;   /* Work around for Firefox */
+}
+
+img#estimates {
+  width: 100%;
+}
+
+img#likelihood {
+  height: 3in;
+}
+
+img#cone {
+  height: 4in;
+}
+
+img#angles {
+  height: 3in;
+}
+
+img#metrics {
+  width: 100%;
+}
+
+img#sharping {
+  width: 100%;
+}
+
+cite {
+  font-style: normal;
+  font-size: 18pt;
+}
+
+figcaption {
+  text-align: left;
+  font-size: 18pt;
+}
